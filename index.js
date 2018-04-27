@@ -28,7 +28,7 @@ console.log(
   Generated code misses the import.
   Ways to fix this (ONE of the following is sufficient):
   * remove the `filename` in the transform call
-  * change `a()` to `local()`
+  * change `a()` to `local()` - NEVERMIND THIS DOES NOT FIX IT
   * disable `@babel/preset-typescript` in .babelrc
   * do not `registerDeclaration` / `crawl`
 */
